@@ -1,0 +1,28 @@
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.card1, .card2, .card3 {
+    width: 25%;
+    height: auto;
+    background-color: #eeeeee;
+    padding: 20px;
+    text-align: center;
+}
+
+.card1 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.card1 p, .card2 p, .card3 p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+}
